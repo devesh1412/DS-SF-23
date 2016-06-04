@@ -1,0 +1,18 @@
+### Project Problem and Hypothesis
+
+What's the project about? What problem are you solving?
+
+The business problem tackled here is trying to improve customer service for YourCabs.com, a cab company in Bangalore. The problem of interest is booking cancellations by the company due to unavailability of a car. The challenge is that cancellations can occur very close to the trip start time, thereby causing passengers inconvenience.
+
+- Where does this seem to reside as a machine learning problem? Are you predicting some continuous number, or predicting a binary value?
+
+The goal is to create a predictive model for classifying new bookings as to whether they will eventually get cancelled due to car unavailability. This is a classification task 
+
+- What kind of impact do you think it could have?
+The problem describes the scenario when the booking is cancelled by the company ,not the customer . The customer satisfaction will go down drastically when the booking is cancelled by the company citing resaons of non availability.
+Using the predictive approach the company :
+1)could get new insights into customer satisfaction 
+2)depending on the accuracy of the model the company can decline a booking much earlier and keep the customer happy
+3)may even offer a booking at a discounted rate (if the probability of cancellation is high), thus providing an incentive to the customer to go ahead with the booking and even monitize the 'cancellation'.
+
+- What do you think will have the most impact in predicting the value you are interested in solving for?
